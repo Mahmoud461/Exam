@@ -1,0 +1,61 @@
+.uploadImage {
+  width: 50px;
+  height: 45px;
+}
+.QuestionContainer {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-top: 10px;
+  width: 70%;
+}
+.QuestionInput {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.uploadImgDiv {
+  background-color: #ececec;
+  width: 100%;
+  margin: auto;
+  height: 70%;
+}
+.bootomRow {
+  height: 70%;
+  margin-bottom: 20px;
+}
+.QuestionP {
+  text-align: left;
+  margin-bottom: 0px;
+}
+.QuestionBtn {
+  background-color: transparent;
+  border: none;
+  &:focus {
+    border: none;
+    outline: none;
+  }
+  &:hover {
+    color: gray;
+  }
+}
+.QuestionIcon {
+  margin-right: 4px;
+  margin-bottom: 3px;
+}
+.middleRow {
+  background: linear-gradient(to bottom, #888888 0%, #ececec 20%);
+  height: 100%;
+  padding: 10px;
+}
+.upperRow {
+  z-index: 100;
+}
+.addAnswerBtn {
+  border: 0;
+  border-radius: 10px;
+  background-color: brown;
+  float: right;
+
+  color: white;
+  margin: 20px;
+}
